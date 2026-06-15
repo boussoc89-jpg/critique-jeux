@@ -96,7 +96,7 @@ L'application sera accessible sur `http://localhost:3000`.
 ## Liens de Production
 
 - Frontend : https://critique-jeux-6htg-pink.vercel.app
-- Backend : https://critique-jeux.onrender.com
+- Backend : https://critique-jeux.onrender.com/api/games
 - GitHub : https://github.com/boussoc89-jpg/critique-jeux
 
 ```json
