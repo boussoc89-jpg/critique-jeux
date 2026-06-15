@@ -3,7 +3,7 @@
 > **Application Fullstack développée dans le cadre du module "Développement Front-End & Architecture".**
 > Ce projet sert de socle technique pour l'intégration de services externes (Python) et la mise en place d'une pipeline CI/CD.
 
-## 📝 Description du Projet
+## Description du Projet
 
 CritiqueJeux est une plateforme web permettant de rechercher, filtrer et comparer les meilleurs jeux vidéo du marché.
 
@@ -14,7 +14,7 @@ Le projet est divisé en deux parties :
 
 ---
 
-## 🛠️ Stack Technique
+## Stack Technique
 
 - **Frontend :** React.js, Redux Toolkit, React-Redux
 - **Backend :** Node.js, Express.js
@@ -23,7 +23,7 @@ Le projet est divisé en deux parties :
 
 ---
 
-## ⚙️ Installation & Lancement (Local)
+## Installation & Lancement (Local)
 
 ### Prérequis
 
@@ -63,7 +63,7 @@ L'application sera accessible sur `http://localhost:3000`.
 
 ---
 
-## 🗂️ Architecture du State Redux
+## Architecture du State Redux
 
 ```javascript
 {
@@ -80,7 +80,7 @@ L'application sera accessible sur `http://localhost:3000`.
 
 ---
 
-## 🔌 API Reference (Pour l'équipe Python)
+## API Reference (Pour l'équipe Python)
 
 ### `GET /api/games`
 
@@ -107,3 +107,9 @@ L'application sera accessible sur `http://localhost:3000`.
   ]
 }
 ```
+
+Liens de Production
+
+- Frontend : https://critique-jeux-6htg-pink.vercel.app
+- Backend : https://critique-jeux.onrender.com
+- GitHub : https://github.com/boussoc89-jpg/critique-jeux
