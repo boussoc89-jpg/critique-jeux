@@ -4,9 +4,12 @@ import axios from "axios";
 export const fetchGames = createAsyncThunk(
   "games/fetchGames",
   async (params) => {
-    const response = await axios.get("http://localhost:5000/api/games", {
-      params,
-    });
+    const response = await axios.get(
+      "https://critique-jeux.onrender.com/api/games",
+      {
+        params,
+      },
+    );
     return response.data.results;
   },
 );
