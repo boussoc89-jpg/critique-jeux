@@ -6,8 +6,14 @@ const axios = require("axios");
 
 const app = express();
 
-app.use(cors({ origin: "http://localhost:3000" }));
-
+app.use(
+  cors({
+    origin: [
+      "http://localhost:3000",
+      "https://critique-jeux-6htg-pink.vercel.app",
+    ],
+  }),
+);
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000,
   max: 100,

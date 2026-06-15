@@ -6,9 +6,7 @@ export const fetchGames = createAsyncThunk(
   async (params) => {
     const response = await axios.get(
       "https://critique-jeux.onrender.com/api/games",
-      {
-        params,
-      },
+      { params },
     );
     return response.data.results;
   },
